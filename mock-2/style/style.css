@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-container {
+  background-color: #eef9f9;
+  /* height: 100vh;
+  max-height: fit-content; */
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  color: #25316d;
+}
+
+.job-listing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-listing {
+  background-color: white;
+  padding: 2rem 1rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.left-container {
+  display: flex;
+}
+
+.left-container * {
+  margin-left: 7px;
+}
+
+.right-container {
+  display: flex;
+}
+
+.right-container * {
+  margin-right: 10px;
+  border: none;
+  background-color: #edf6f6;
+  padding: 7px 15px;
+  font-size: 0.8rem;
+  color: #7eadad;
+  font-weight: bold;
+}
+
+.post-details {
+  display: flex;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.post-details * {
+  margin-right: 2px;
+}
+
+.company-logo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.company {
+  color: #7eadad;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.position {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.filter-search-functionality {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  margin-left: 2rem;
+}
+
+#search-lang {
+  border: none;
+  border-bottom: 1px solid #1890ff;
+  outline: none;
+  padding: 7px 15px;
+  background-color: #eef9f9;
+  font-weight: bold;
+}
+
+#search-lang:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+#role-filter {
+  border: none;
+  border-bottom: 1px solid #1890ff;
+  padding: 7px 10px;
+  background-color: #eef9f9;
+  font-weight: bold;
+}
+
+#pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.pagination-btn {
+  padding: 9px 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 10px;
+  border-color: #1890ff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-btn:hover {
+  background-color: gainsboro;
+}
