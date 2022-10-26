@@ -1,0 +1,12 @@
+.image{
+    width: 250px;
+    height: 150px;
+}
+.ImageCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+}

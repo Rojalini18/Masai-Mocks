@@ -1,0 +1,15 @@
+.Dogname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  height: 10vh;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #c3d5d1;
+  width: 20%;
+  padding: 10px 15px;
+  text-align: center;
+}

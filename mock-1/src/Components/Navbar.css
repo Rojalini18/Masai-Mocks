@@ -1,0 +1,17 @@
+.navT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(98, 122, 143);
+  padding: 10px 0;
+}
+.navT div {
+  background-color: #c3d5d1;
+  width: 20%;
+  padding: 12px 15px;
+  text-align: center;
+}
