@@ -1,0 +1,29 @@
+#card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  margin: 2em auto;
+  background-color: bisque;
+  padding: 2em;
+  border-radius: 10px;
+}
+#card > img {
+  width: 150px;
+}
+#page {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: auto;
+}
+#page > button {
+  width: 50px;
+  height: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: 2em auto;
+}

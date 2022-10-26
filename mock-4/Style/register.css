@@ -1,0 +1,22 @@
+#signupForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 2em auto;
+  gap: 1em;
+  padding: 1em;
+  background-color: antiquewhite;
+}
+#signupForm > input,
+button {
+  height: 30px;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 15px;
+}
+#signupForm > textarea {
+  height: 5em;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 15px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/employees.css" />
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+  <body class="body">
+    <nav id="navbar"></nav>
+    <nav class="nav">
+      <input type="text" class="inputSearch" />
+      <button class="search">Search</button>
+
+      <select name="sort" class="sort">
+        <option value="">Sort By Salary</option>
+        <option value="asc">Low to hight</option>
+        <option value="desc">High to low</option>
+      </select>
+
+      <select name="filter" class="filter">
+        <option value="Product Management">Product Management</option>
+        <option value="Business Development">Business Development</option>
+        <option value="Research and Development">
+          Research and Development
+        </option>
+        <option value="Training">Training</option>
+        <option value="Services">Services</option>
+        <option value="Support">Support</option>
+        <option value="Accounting">Accounting</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Marketing">Marketing</option>
+      </select>
+    </nav>
+    <div id="employees"></div>
+    <div id="page"></div>
+  </body>
+</html>
+<script src="./Script/employees.js" type="module"></script>
