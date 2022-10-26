@@ -1,0 +1,81 @@
+nav {
+  top: 0;
+  position: sticky;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+#masai {
+  width: 50px;
+  height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin: 30px auto;
+}
+
+#product {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.img {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.wish {
+  width: 30px;
+  height: 30px;
+}
+
+.wish:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#fun {
+  display: flex;
+  gap: 30px;
+}
+
+@media only screen and (min-width: 80px) and (max-width: 420px) {
+  #product {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 780px) {
+  #product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

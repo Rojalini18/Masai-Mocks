@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <img
+        id="masai"
+        src="https://miro.medium.com/max/2400/1*aYMGzz227iOfA08vt0-mJw.png"
+        alt="masai"
+      />
+      <a href="/">Home</a>
+      <a href="./pages/wishlist.html">Wishlist</a>
+    </nav>
+    <div id="fun">
+      <div id="sort">
+        <select name="" id="sortprice" onchange="handleprice()">
+          <option value="">Sort by price</option>
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
+        </select>
+      </div>
+      <div id="filter">
+        <select name="" id="filtercategory" onchange="handlecategory()">
+          <option value="">Filter by category</option>
+          <option value="All">All</option>
+          <option value="men">Men</option>
+          <option value="women">Women</option>
+          <option value="kids">Kids</option>
+          <option value="homedecor">Homedecor</option>
+        </select>
+      </div>
+    </div>
+
+    <main id="product"></main>
+    <div class="page">
+      <button id="btnp" onclick="dec()">Prev</button>
+      <p id="num"></p>
+      <button id="btnn" onclick="inc()">next</button>
+    </div>
+  </body>
+  <script src="./script/index.js"></script>
+</html>
