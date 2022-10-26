@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    color: grey;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.logo{
+    width:25%;
+    cursor: pointer;
+}
+.pages{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pages button{
+    border: none;
+    color: grey;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+h2:hover{
+    color: black;
+}
+#navbar button:hover{
+     color: black;
+     text-decoration: underline;
+}

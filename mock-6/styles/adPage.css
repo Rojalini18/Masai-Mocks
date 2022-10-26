@@ -1,0 +1,73 @@
+.heading{
+    text-align: center;
+}
+.formContainer{
+    width:30%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 1em;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 1%;
+}
+#registerForm>div{
+    margin:1em;
+}
+#registerForm label{
+    font-size: 15px;
+    font-weight: bold;
+}
+#registerForm input{
+    margin-top: 0.5em;
+    width: 250px;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#registerForm>h3{
+    text-align: center;
+}
+
+#registerForm button{
+    width: 80px;
+    padding: 5px;
+    font-weight:bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#registerForm select{
+    width:250px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#otpForm{
+    content: '';
+    visibility: hidden;
+    text-align: center;
+}
+
+#otp input{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+#otpForm>div{
+    padding: 1em;
+    text-align: center;
+}
+#otpForm button{
+    width: 80px;
+    padding: 5px;
+    font-weight:bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#otpForm label{
+    font-size: 18px;
+    font-weight: bold;
+}

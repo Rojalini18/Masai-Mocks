@@ -1,0 +1,68 @@
+#carsContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    justify-content: center;
+    gap: 5%;
+    grid-template-columns: repeat(4,1fr);
+}
+.card{
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.card img{
+    width: 50px;
+}
+.card p{
+    color: grey;
+}
+.flexDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit,.add{
+    background: transparent;
+    background-color: black;
+    color: grey;
+    cursor: pointer;
+    font-weight: bold;
+}
+.removeIcon{
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background: transparent;
+}
+#featuresContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    gap:2em;
+}
+.filterContainer{
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+}
+.sortContainer{
+    display: flex;
+    gap:0.3em;
+    align-items: center;
+}
+#featuresContainer input,select{
+    border: none;
+    width: 200px;
+    border-bottom: 2px solid;
+    background: transparent;
+    outline: none;
+}
+.topDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

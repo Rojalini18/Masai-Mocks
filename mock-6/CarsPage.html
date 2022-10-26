@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/cars.css" />
+    <script
+      src="https://kit.fontawesome.com/fa650845c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="navbarContainer"></div>
+    <div id="featuresContainer">
+      <div class="filterContainer">
+        <div>
+          <label>Filter: </label>
+        </div>
+        <div>
+          <select id="filter" onchange="filter()">
+            <option value="">by brand</option>
+            <option value="Tata">TATA</option>
+            <option value="Renault">RENAULT</option>
+            <option value="Audi">AUDI</option>
+            <option value="Suzuki">SUZUKI</option>
+            <option value="BMW">BMW</option>
+          </select>
+        </div>
+      </div>
+      <div class="sortContainer">
+        <div>
+          <label>Sort: </label>
+        </div>
+        <div>
+          <select id="sort" onchange="sort()">
+            <option value="">by price</option>
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+          </select>
+        </div>
+      </div>
+      <div class="sortContainer">
+        <div>
+          <label>Sort: </label>
+        </div>
+        <div>
+          <select id="sortKms" onchange="sortKms()">
+            <option value="">by kms</option>
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="carsContainer"></div>
+  </body>
+</html>
+<script type="module">
+  import navbar from "./components/navbar.js";
+  let nav = document.getElementById("navbarContainer");
+  nav.innerHTML = navbar();
+</script>
+<script src="./scripts/cars.js"></script>

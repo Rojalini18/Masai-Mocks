@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/adPage.css" />
+  </head>
+  <body>
+    <div id="navbarContainer"></div>
+    <div id="registerContainer">
+      <div class="heading">
+        <h2>please register your cars here.</h2>
+      </div>
+      <div class="formContainer">
+        <form id="registerForm">
+          <h3>Registration form</h3>
+          <div>
+            <div><label>Brand</label></div>
+            <div>
+              <input name="brand" type="text" placeholder="..your car name" />
+            </div>
+          </div>
+          <div>
+            <div><label>Type</label></div>
+            <div>
+              <select name="type">
+                <option value="">choose the type of the car</option>
+                <option value="Manual">Manual</option>
+                <option value="Automated">Automated</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div><label>Year</label></div>
+            <div>
+              <select name="year">
+                <option value="">choose the year of the car</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div><label>KM Details</label></div>
+            <div>
+              <input
+                name="km_driven"
+                type="text"
+                placeholder="..kilometer driven"
+              />
+            </div>
+          </div>
+          <div>
+            <div><label>Description</label></div>
+            <div>
+              <input
+                name="description"
+                type="text"
+                placeholder="..describe your car"
+              />
+            </div>
+          </div>
+          <div>
+            <div><label>Price</label></div>
+            <div>
+              <input
+                name="price"
+                type="text"
+                placeholder="..price of the car"
+              />
+            </div>
+          </div>
+          <div>
+            <div><button type="submit">submit</button></div>
+          </div>
+        </form>
+      </div>
+      <form id="otpForm">
+        <div><label>Enter OTP</label></div>
+        <div id="otp">
+          <input type="text" name="data1" maxlength="1" /><input
+            type="text"
+            name="data2"
+            maxlength="1"
+          /><input type="text" name="data3" maxlength="1" /><input
+            type="text"
+            name="data4"
+            maxlength="1"
+          />
+        </div>
+        <div><button type="submit">submit</button></div>
+      </form>
+    </div>
+  </body>
+</html>
+<script type="module">
+  import navbar from "./components/navbar.js";
+  let nav = document.getElementById("navbarContainer");
+  nav.innerHTML = navbar();
+</script>
+<script src="./scripts/adPage.js"></script>
