@@ -1,0 +1,40 @@
+#show {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  gap: 1em;
+}
+#userCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1em;
+}
+#userCard > div > img {
+  width: 150px;
+  border-radius: 100px;
+}
+#functionality {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  margin: auto;
+}
+#functionality > input,
+select {
+  margin-bottom: 1em;
+  width: 200px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+#functionality > button{
+  margin-bottom: 1em;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
