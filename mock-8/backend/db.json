@@ -1,0 +1,31 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "username": "admin@gmail.com",
+      "password": "masai"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "Rojalini Das",
+      "email": "roja@gmail.com",
+      "password": "12345",
+      "repassword": "12345"
+    }
+  ],
+  "hotelDetails": [
+    {
+      "id": 1,
+      "category": "suite",
+      "image_url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "type_of_room": "AC",
+      "bed_type": "double",
+      "no_of_persons": "2",
+      "capacity": "2",
+      "cost": "34000",
+      "booked": false
+    }
+  ]
+}
