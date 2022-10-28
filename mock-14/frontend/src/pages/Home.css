@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  background-color: antiquewhite;
+}
+#navbar {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#logo {
+  width: 10%;
+  text-align: right;
+}
+#logo img {
+  width: 30%;
+  border-radius: 80%;
+  padding: 9px;
+}
+#profile img {
+  border-radius: 80%;
+  width: 50%;
+  height: 35px;
+  padding-top: 7%;
+}
+#search {
+  display: flex;
+  width: 10%;
+  padding: 12px;
+  margin-right: 100px;
+}
+ul {
+  padding-left: 0px;
+}
+
+#list li {
+  display: inline;
+  margin-right: 2%;
+}
+#options {
+  width: 75%;
+}
+#profile {
+  width: 5%;
+}
+
+#main {
+  padding: 3%;
+}
+#data > div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 50px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+#img1 {
+  margin-left: 2%;
+}
+#img1 > img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+h2 {
+  text-align: center;
+}
+
+#maina {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
