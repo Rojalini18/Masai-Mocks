@@ -1,0 +1,17 @@
+.box {
+  border: solid;
+  gap: 3%;
+  width: 300px;
+  margin-left: 90px;
+  padding: 50;
+}
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3%;
+  width: 80%;
+  margin: auto;
+}
+button {
+  background-color: aliceblue;
+}
